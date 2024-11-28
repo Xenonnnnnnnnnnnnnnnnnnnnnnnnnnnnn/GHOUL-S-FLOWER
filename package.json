@@ -1,0 +1,21 @@
+{
+  "name": "date-proposal-main",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass public/scss/main.scss public/css/styles.css",
+    "watch-css": "sass --watch public/scss/main.scss:public/css/styles.css",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
+}
